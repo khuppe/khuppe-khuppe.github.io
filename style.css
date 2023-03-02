@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto&display=swap');
+
+:root {
+    --mainTextColor: #a8a8a8;
+    --secondaryTextColor: #353535;
+    /* darker than first, but lighter than second color */
+    --midTextColor: #5c5c5c;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: var(--mainTextColor);
+    /* allows words to be broken if they go over page width */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.wrapper {
+    font-family: 'Cabin', sans-serif;
+
+
+
+    /* margin: 0.7em 2.5em 0.7em 2.5em; */
+
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    color: var(--secondaryTextColor);
+}
+
+section {
+    margin: 0 auto;
+    width: 41%;
+}
+
+/* * header */
+#name {
+    font-size: 4em;
+    margin: 0 0 0;
+}
+
+#title {
+    color: var(--midTextColor);
+    margin: 0;
+}
+
+#social {
+    color: var(--secondaryTextColor);
+}
+
+.icons {
+    font-size: 0.9em;
+}
+
+.fa-envelope {}
+
+.fa-house {}
+
+.fa-github-square {}
+
+.fa-linkedin {}
+
+.divider {
+    margin: 0 3px 0 3px;
+}
+
+/* * main */
+
+/* skills */
+.skills {}
+
+.heading {
+    margin: 0.5em 0 0.5em;
+    font-size: 1.6em;
+    color: var(--secondaryTextColor);
+}
+
+.line {
+    margin-left: 3px;
+    color: var(--mainTextColor);
+    font-size: 0.5em;
+}
+
+#skills-line {}
+
+.skills ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.skills ul li {
+    list-style: none;
+    margin: 0 0.7em;
+    font-size: 1.2em;
+    color: var(--mainTextColor);
+
+}
+
+/* expierience + projects */
+.expierience {}
+
+.sections {
+    list-style: none;
+}
+
+.section-title {
+    color: var(--midTextColor);
+    margin-bottom: 0.2em;
+    font-size: 1.1em;
+    text-decoration: underline;
+}
+
+.location {
+    color: var(--mainTextColor);
+    font-style: italic;
+}
+
+.location-1 {
+    /* margin-left: 27.3em; */
+    margin-left: 25.7em;
+}
+
+.location-2 {
+    /* margin-left: 30.4em; */
+    margin-left: 28.8em;
+}
+
+.location-3 {
+    /* margin-left: 29.5em; */
+    margin-left: 31.5em;
+}
+
+.section-position {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: var(--mainTextColor);
+    margin-bottom: 0.3em;
+}
+
+.time-frame {
+    font-style: italic;
+}
+
+.time-frame-1 {
+    /* margin-left: 38.4em; */
+    margin-left: 35em;
+}
+
+.time-frame-2 {
+    /* margin-left: 30.9em; */
+    margin-left: 27.6em;
+}
+
+.time-frame-3 {
+    /* margin-left: 36.1em; */
+    margin-left: 34.4em;
+}
+
+.sub-section {
+    margin: 0 0 0 1em;
+    list-style-type: disc;
+    /* color for bullet points */
+    color: #808080;
+}
+
+.job-brief li {
+    line-height: 1.5em;
+}
+
+
+/* * footer */
+.footer-info {
+    margin-top: 3em;
+    font-size: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--mainTextColor);
+}
+
+#bullet-divider {
+    margin: 0 0.5em 0 0.5em;
+}
+
+@media (max-width: 1880px) {
+    section {
+        /* margin: 0 auto; */
+        width: 45%;
+    }
+}
+
+@media (max-width: 1720px) {
+    section {
+        /* margin: 0 auto; */
+        width: 50%;
+    }
+}
+
+@media (max-width: 1580px) {
+    section {
+        /* margin: 0 auto; */
+        width: 55%;
+    }
+}
+
+@media (max-width: 1430px) {
+    section {
+        /* margin: 0 auto; */
+        width: 60%;
+    }
+}
+
+@media (max-width: 1315px) {
+    section {
+        /* margin: 0 auto; */
+        width: 65%;
+    }
+}
+
+@media (max-width: 1220px) {
+    section {
+        /* margin: 0 auto; */
+        width: 70%;
+    }
+}
+
+@media (max-width: 1130px) {
+    section {
+        /* margin: 0 auto; */
+        width: 77%;
+    }
+}
+
+@media (max-width: 1040px) {
+    section {
+        /* margin: 0 auto; */
+        width: 83%;
+    }
+}
+
+@media (max-width: 972px) {
+    section {
+        /* margin: 0 auto; */
+        width: 93%;
+    }
+}
+
+@media (max-width: 872px) {
+    section {
+        /* margin: 0 auto; */
+        width: 100%;
+    }
+}
